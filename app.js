@@ -1,10 +1,9 @@
 var submitbutton=document.querySelector("#submit-button")
 var txtarea=document.querySelector("#txt-area")
-
+var txtoutput=document.querySelector("#txt-output")
 function onclicked()
 {
-console.log("button is clicked",)
-console.log("user entered-",txtarea.value);
+txtoutput.innerHTML="output is"+txtarea.value+"afdcsdfvgv"
 }
 
 submitbutton.addEventListener("click",onclicked)
