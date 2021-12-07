@@ -3,8 +3,7 @@
 body{
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-    box-sizing: border-box;
-}
+
 .topheading{
     background-color: #A7F3D0;
    display: block;
@@ -12,6 +11,7 @@ min-height: 5rem;
 border-radius: 1rem;
 text-align: center;
 font-size: 1.5rem;
+margin-bottom: 2rem;
 }
 
 .headertag{
@@ -47,10 +47,10 @@ height:10rem ;
 .footer{
  background-color: #A7F3D0;   
  text-align: center; 
+ border-radius: 1rem;
    
 }
 .footerpara{
 margin: auto;
 max-width: 30rem;
-
 }
